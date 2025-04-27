@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crisdel Nombrado</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #333;
+            color: white;
+            padding: 20px;
+            text-align: center; /* Centers "About Me" */
+            position: relative; /* Needed for absolute positioning */
+        }
+
+        header h1 {
+            margin: 0; /* Remove default margin */
+        }
+
+        header a {
+            color: white;
+            position: absolute; /* Takes "Home" out of normal flow */
+            left: 20px; /* Adjust spacing from left edge */
+            top: 50%; /* Vertically center */
+            transform: translateY(-50%); /* Fine-tune vertical alignment */
+            text-decoration: none; /* Optional: Remove underline */
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+        }
+        section {
+            margin: 20px 0;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: white;
+            margin-top: 20px;
+        }
+        .about-container {
+            display: flex;
+            align-items: center;
+        }
+        .about-container img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+        .game-container, .manga-container {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .game, .manga {
+            display: flex;
+            align-items: center;
+            margin-right: 20px;
+            margin-bottom: 10px;
+        }
+        .game img, .manga img {
+            width: 100px;
+            height: 100px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="/index.html">Home</a>
+        <h1>About Me </h1> 
+    </header>
+    <div class="container">
+        <section id="about">
+            <div class="about-container">
+                <img src="img.jpg" alt="Prof Picture">
+                <p>Hi, <b>I'm Crisdel Jonel C. Nombrado</b>, a BSIT student currently studying in Laguna State Polytechnic University. My hobbies are playing games and reading manga.</p>
+            </div>
+        </section>
+        <section id="personal-info">
+            <h2>Personal Information</h2>
+            <ul>
+                <li><strong>Full Name:</strong> Crisdel Jonel C. Nombrado</li>
+                <li><strong>Date of Birth:</strong> October 14, 2004</li>
+                <li><strong>Age:</strong> 20</li>
+                <li><strong>Address:</strong> Brgy. Suba, Majayjay, Laguna</li>
+                <li><strong>Nationality:</strong> Filipino</li>
+                <li><strong>Marital Status:</strong> Single</li>
+                <li><strong>Primary Educ. Background:</strong> Suba Elementary School</li>
+                <li><strong>Secondary Educ. Background:</strong> ACTS Computer College</li>
+                <li><strong>Tertiary Educ. Background:</strong> Laguna State Polytechnic University</li>
+            </ul>
+        </section>
+        <section id="favorite-games">
+            <h2>Games I Like Playing</h2>
+            <div class="game-container">
+                <div class="game">
+                    <img src="game1.jpg" alt="Game 1 Logo">
+                    <p>Honkai Star Rail</p>
+                </div>
+                <div class="game">
+                    <img src="game2.jpg" alt="Game 2 Logo">
+                    <p>God of War</p>
+                </div>
+                <div class="game">
+                    <img src="game3.jpg" alt="Game 3 Logo">
+                    <p>Red Dead Redemption 2</p>
+                </div>
+            </div>
+        </section>
+        <section id="favorite-manga-manhwa-manhua">
+            <h2>Manga I Like to Read</h2>
+            <div class="manga-container">
+                <div class="manga">
+                    <img src="manga1.jpg" alt="Manga 1 Logo">
+                    <p>Tensura</p>
+                </div>
+                <div class="manga">
+                    <img src="manga2.jpg" alt="Manga 2 Logo">
+                    <p>Solo Leveling</p>
+                </div>
+                <div class="manga">
+                    <img src="manga3.jpg" alt="Manga 3 Logo">
+                    <p>Shangri-la Frontier</p>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: joncris1430@gmail.com</p>
+            <p>Phone: 09074644642</p>
+            <p>Facebook: Cris Nombrado</p>
+        </section>
+    </div>
+    <footer>
+    </footer>
+</body>
+</html>
